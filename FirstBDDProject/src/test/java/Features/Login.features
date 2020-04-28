@@ -1,0 +1,7 @@
+Feature: Web Browsing Login
+  Scenario: Login Scenario
+    Given user to open home page
+    Then user to input username and password
+    Then user to click the submit button
+    And user verify login successful
+    Then close browser
